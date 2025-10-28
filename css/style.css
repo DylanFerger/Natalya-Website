@@ -21,6 +21,15 @@
 /* BASE STYLES
 /*******************************************/
 
+*{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     font-size: 10px;
+}
+
+
 body {
 
 }
@@ -29,9 +38,84 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+
+/* Nav Bar */
+.logo{
+     order: 1;
 
 }
+
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 8vh;
+     padding: 2rem 5rem;
+     background-color: rgb(140, 206, 140);
+}
+
+nav ul{
+     display: flex;
+     order: 2;
+}
+
+nav ul a{
+     color: white;
+     font-size: 1.6rem;
+     margin-left: 2rem;
+}
+
+/* Hero Section */
+
+.container{
+     background-color: aquamarine;
+     height: 60rem;
+     padding: 2rem 12rem;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     gap: 4rem;
+}
+
+.hero-text{
+     width: 70%;
+     margin-top: -5rem;
+}
+
+.hero-text h1{
+     font-size: 5.3rem;
+     margin-bottom: 1rem;
+     color: red;
+}
+
+.hero-text p{
+     font-size: 2.4rem;
+     margin-bottom: 3.8rem;
+}
+
+button{
+     padding: 1rem 2.1rem 1.1rem;
+     border-radius: 50px;
+     font-weight: 800;
+}
+
+@media (max-width:884px){
+
+}
+
+@media (max-width:678px){
+
+}
+
+@media (max-width:428px){
+     nav{
+          display: none;
+     }
+}
+
+
+
 
 footer {
 
