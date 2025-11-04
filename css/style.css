@@ -29,14 +29,24 @@
      font-size: 10px;
 }
 
+#center{
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     padding: 2rem 5rem;
+}
 
-body {
-
+button{
+     padding: 1rem 2.1rem 1.1rem;
+     border-radius: 50px;
+     font-weight: 800;
 }
 
 
 /******************************************
-/* LAYOUT
+/* LANDING PAGE
 /*******************************************/
 
 /* Nav Bar */
@@ -69,7 +79,7 @@ nav ul a{
 
 .container{
      background-color: aquamarine;
-     height: 60rem;
+     height: 92vh;
      padding: 2rem 12rem;
      display: flex;
      flex-direction: row;
@@ -94,12 +104,6 @@ nav ul a{
      margin-bottom: 3.8rem;
 }
 
-button{
-     padding: 1rem 2.1rem 1.1rem;
-     border-radius: 50px;
-     font-weight: 800;
-}
-
 @media (max-width:884px){
 
 }
@@ -114,12 +118,139 @@ button{
      }
 }
 
-
-
-
 footer {
 
 }
+
+/******************************************
+/* WELCOME SECTION
+/*******************************************/
+
+.welcome-section h2{
+     font-size: 3rem;
+}
+
+.welcome-section p {
+     font-size: 1.6rem;
+     margin-top: 2rem;
+}
+
+.welcome-section button{
+     width: fit-content;
+     margin-top: 3rem;
+}
+
+.welcome-section img{
+
+}
+
+
+/******************************************
+APPROACH SECTION
+/*******************************************/
+
+.approach-section h2{
+     font-size: 3rem;
+}
+
+.approach-section p {
+     font-size: 1.6rem;
+     margin-top: 2rem;
+}
+
+.approach-section button{
+     width: fit-content;
+     margin-top: 3rem;
+}
+
+
+/******************************************
+/* SERVICES SECTION
+/*******************************************/
+
+.services-section h4{
+     font-size: 2.5rem;
+
+}
+
+
+/******************************************
+/* JOURNEYS SECTION
+/*******************************************/
+
+
+
+/******************************************
+/* CONTACT SECTION
+/*******************************************/
+
+.contact-form{
+     padding: 3rem;
+}
+
+.contact {
+     width: 80%;
+     margin: 0 auto;
+}
+
+.submitButton {
+     margin-top: 2rem;
+}
+
+label {
+     display: block;
+     margin: 1rem 0 0 0;
+     font-size: 2rem;
+}
+
+textarea {
+     width: 100%;
+     height: 15rem;
+     font-size: 2rem;
+     border: #153548 3px solid;
+     background: transparent;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input {
+     height: 4rem;
+     font-size: 2rem;
+     width: 100%;
+     border: #153548 3px solid;
+     background: transparent;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#contact-center{
+     display: flex;
+     justify-content: center;
+}
+
+
+/******************************************
+/* ABOUT PAGE
+/*******************************************/
+
+
+
+/******************************************
+/* FAQ PAGE
+/*******************************************/
+
+
+
+/******************************************
+/* SINGLES SERVICES PAGE
+/*******************************************/
+
+
+
+/******************************************
+/* GROUP SERVICES PAGE
+/*******************************************/
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
