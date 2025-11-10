@@ -45,7 +45,23 @@ button{
 }
 
 body{
-     background-color: #F8E3D2;
+     background-color: #183425;
+}
+
+.item30{
+     width: 30%;
+}
+
+.item40{
+     width: 40%;
+}
+
+.item60{
+     width: 60%;
+}
+
+.item70{
+     width: 70%;
 }
 
 /******************************************
@@ -75,7 +91,7 @@ nav{
 
 .menu a{
      color: #DDBFA7;
-     font-size: 1.6rem;
+     font-size: 2rem;
      transition: all .2s ease-in-out;
 }
 
@@ -84,7 +100,7 @@ nav{
 }
 
 .menu div{
-     padding: 3vh 1rem;
+     padding: 3vh 2rem;
 }
 
 .dropdown{
@@ -127,7 +143,7 @@ nav .contact-dropdown{
 /* Hero Section */
 
 .container{
-     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/IMG_6502.JPG");
+     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/IMG_1663.jpeg");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -149,12 +165,13 @@ nav .contact-dropdown{
 .hero-text h1{
      font-size: 5.3rem;
      margin-bottom: 1rem;
-     color: red;
+     color: #DDBFA7;
 }
 
 .hero-text p{
      font-size: 2.4rem;
      margin-bottom: 3.8rem;
+     color: #DDBFA7
 }
 
 @media (max-width:884px){
@@ -183,26 +200,54 @@ footer {
      margin-top: 2rem;
      display: flex;
      flex-flow: row nowrap;
+     padding: 10rem 5rem;
 }
 
+.welcome-section .item40{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.welcome-section .item60{
+}
 
 .welcome-section h2{
-     font-size: 3rem;
+     font-size: 8rem;
+     color: #DDBFA7;
+}
+
+.welcome-section h5{
+     font-size: 6rem;
+     font-weight: 100;
+     padding-top: 4rem;
+     color: #DDBFA7;
 }
 
 .welcome-section p {
-     font-size: 1.6rem;
-     margin-top: 2rem;
+     font-size: 3rem;
+     padding-top: 6rem;
+     font-weight: 400;
+     color: #DDBFA7;
 }
 
 .welcome-section button{
      width: fit-content;
-     margin-top: 3rem;
+     margin-top: 6rem;
+     background-color: transparent;
+     border: 1px solid #DDBFA7;
+}
+
+.welcome-section button a{
+     color: #DDBFA7;
+     font-size: 2rem;
+     padding: 1rem 3rem;
 }
 
 .welcome-section img{
      height: fit-content;
-     width: 400px;
+     width: 60rem;
+     border-radius: 50px;
 }
 
 
@@ -210,6 +255,10 @@ footer {
 /******************************************
 APPROACH SECTION
 /*******************************************/
+
+.approach-section{
+     background-color: #F8E3D2;
+}
 
 .approach-section #center{
      display: flex;
@@ -250,6 +299,11 @@ APPROACH SECTION
      flex-flow: column;
 }
 
+/******************************************
+/* TESTIMONIAL SECTION
+/*******************************************/
+
+
 
 /******************************************
 /* SERVICES SECTION
@@ -267,7 +321,7 @@ APPROACH SECTION
      flex-flow: row nowrap;
      border: 1px solid black;
      width: 100%;
-     height: 200px;
+     height: fit-content;
      margin-top: 3rem;
 }
 
